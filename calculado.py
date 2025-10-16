@@ -1,6 +1,14 @@
 while True:
-    num_1, num_2 = int(input("Digite um número: ", "Digite outro número: "))
-    operação = input("Digite a operação (+, -, *, /): ")
+    try:
+        num_1 = int(input("Digite um número: ")) 
+        num_2 = int(input("Digite outro número: "))
+        operação = input("Digite a operação (+, -, *, /): ")
+
+    except ValueError:
+            print("Entrada inválida. Digite números inteiros.")
+            continue
+
+
     if operação == "+":
         print(f"{num_1} + {num_2} = {num_1 + num_2}")
     elif operação == "-":
