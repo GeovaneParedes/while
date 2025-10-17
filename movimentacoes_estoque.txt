@@ -1,0 +1,2 @@
+{"codigo": "001", "operacao": "retirada", "quantidade_retirada": 40, "saldo_apos": 20, "funcionario": "DevGege", "matricula": null, "motivo": null, "timestamp": "2025-10-17T12:04:42.533546Z"}
+{"codigo": "001", "operacao": "retirada", "quantidade_retirada": 10, "saldo_apos": 10, "funcionario": "DevGege", "timestamp": "2025-10-17T09:10:00.733354Z"}
